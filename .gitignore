@@ -19,3 +19,5 @@
 /update-notifier
 user-dirs.dirs
 user-dirs.locale
+/kitty/*.git
+/kitty/kitty-themes
