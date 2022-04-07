@@ -21,3 +21,10 @@ user-dirs.dirs
 user-dirs.locale
 /kitty/*.git
 /kitty/kitty-themes
+/BraveSoftware
+Qt*
+/cura
+/fcitx
+mimeapps.list
+monitor*
+py*
