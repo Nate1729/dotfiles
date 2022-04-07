@@ -20,6 +20,7 @@ set ai "autoindent
 set si "smart indent
 set showmatch "highlight matching parens
 
+
 " Search through subfolders
 set path+=**
 set wildmenu
@@ -38,6 +39,7 @@ Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'lifepillar/vim-solarized8'
+Plug 'morhetz/gruvbox'
 
 call plug#end()
 
@@ -49,3 +51,6 @@ colorscheme solarized8
 " Telescope
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
+
+
+runtime! syntax/markdown.vim
