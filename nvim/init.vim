@@ -45,7 +45,7 @@ call plug#end()
 
 "Colors 
 set termguicolors
-colorscheme solarized8
+colorscheme solarized8 
 
 " -- Remapping --"
 " Telescope

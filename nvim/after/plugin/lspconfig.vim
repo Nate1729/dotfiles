@@ -49,6 +49,10 @@ for _, lsp in pairs(servers) do
   }
 end
 
+require'lspconfig'.clangd.setup {
+  cmd = { 'clangd-12' }
+}
+
 local cmp = require 'cmp'
 cmp.setup {
   mapping = {
