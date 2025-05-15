@@ -28,3 +28,4 @@ Qt*
 mimeapps.list
 monitor*
 py*
+nvim/plugged

@@ -41,9 +41,6 @@ Plug 'hrsh7th/vim-vsnip'
 " Formatter Plugins
 Plug 'sbdchd/neoformat'
 
-" Wiki!
-Plug 'vimwiki/vimwiki'
-
 Plug 'tpope/vim-fugitive'
 Plug 'preservim/nerdtree' |
     \ Plug 'Xuyuanp/nerdtree-git-plugin'
@@ -79,6 +76,4 @@ autocmd BufWritePre *.ts*,*.py Neoformat
 nnoremap <leader>ff <cmd>Telescope find_files<cr>
 nnoremap <leader>fg <cmd>Telescope live_grep<cr>
 
-"runtime! syntax/markdown.vim
-let g:vimwiki_list = [{'path': '~/dev/personal/la-tete/unit21',
-                      \ 'syntax': 'markdown', 'ext': 'md'}]
+runtime! syntax/markdown.vim
